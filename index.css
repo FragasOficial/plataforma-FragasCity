@@ -1,6 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
     margin: auto 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 header{
@@ -52,16 +55,16 @@ header{
 
 #txtBusca{
     text-align: center;
-    border: 0.1rem transparent gray;
+    border: 0.01rem transparent gray;
     border-radius: 50rem;
     width: 25rem;
     height: 1.9rem;
 }
 
 #btnBusca{
-    
     position: absolute;
-    right: 28.49rem;
+    top: 14.8rem;
+    right: 28.5rem;
     width: 2rem;
     border-radius: 60rem;
 }
@@ -71,6 +74,7 @@ header{
 }
 
 .card-services{
+    background-color: rgb(255, 170, 177);
     border: 0.02rem solid gray;
     border-radius: 0.5rem;
     padding: 0.6rem;
