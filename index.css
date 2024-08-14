@@ -1,0 +1,78 @@
+
+body{
+    margin: auto 0;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.config-header{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+
+.config-card{
+    margin: 0 auto;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+
+
+}
+
+.logo-topo{
+    display: flex;
+    width: 8rem;
+    border-radius: 60rem;
+}
+
+.button-config{
+
+}
+
+.input-h1{
+
+}
+
+.divBusca{
+
+}
+
+#txtBusca{
+    text-align: center;
+    border: 0.1rem transparent gray;
+    border-radius: 50rem;
+    width: 25rem;
+    height: 1.9rem;
+}
+
+#btnBusca{
+    
+    position: absolute;
+    right: 28.49rem;
+    width: 2rem;
+    border-radius: 60rem;
+}
+
+.title-header{
+    align-items: center;
+}
+
+.card-services{
+    border: 0.02rem solid gray;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+
+}
