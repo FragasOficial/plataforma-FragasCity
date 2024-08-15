@@ -4,6 +4,7 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
+    background-color: rgb(248, 246, 246);
 }
 
 header{
@@ -14,7 +15,6 @@ header{
 }
 
 .config-header{
-    gap: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,21 +22,73 @@ header{
     margin-bottom: 2rem;
 }
 
-
+.header-category{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
 .config-card{
     margin: 0 auto;
-    gap: 1rem;
+    gap: 0.5rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
-    width: 80%;
+    justify-content: center;
+    width: 90%;
+}
 
+.card-services{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* border: 0.02rem solid gray;
+    border-radius: 0.5rem; */
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    margin-bottom: 1.5rem;
+}
 
+.list-services{
+    font-size: 1.3rem;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.render-button{
+    background-color: transparent;
+    color: black;
+    border: 0.018rem solid gray;
+    border-radius: 1.2rem;
+    padding: 0.6rem;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: large;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    margin-left: auto;
+}
+
+.render-button:hover{
+    border: none;
+    background-color: white;
+    color: red;
 }
 
 .logo-topo{
     display: flex;
+    width: 8rem;
+    border-radius: 60rem;
+}
+
+.render-img{
+    height: 8rem;
     width: 8rem;
     border-radius: 60rem;
 }
@@ -54,29 +106,66 @@ header{
 }
 
 #txtBusca{
-    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    text-align: left;
     border: 0.01rem transparent gray;
     border-radius: 50rem;
     width: 25rem;
     height: 1.9rem;
 }
 
-#btnBusca{
-    position: absolute;
+/* #btnBusca{
+    position: fixed;
     top: 14.8rem;
-    right: 28.5rem;
+    right: 26.6rem;
     width: 2rem;
     border-radius: 60rem;
+} */
+
+.surch{
+    background-color: rgb(213, 24, 109);
+    color: white;
+    height: 2rem;
+    border: 0.02rem solid gray;
+    border-top-right-radius: 50rem;
+    border-bottom-right-radius: 50rem;
+    border-bottom-left-radius: none;
+    border-top-left-radius: none;            
+    /* padding: 0.5rem; */
+    margin-left: -4rem;
+    cursor: pointer;
+    font-weight: bold;
+    width: 5rem;
+    height: 2.2rem;
 }
 
 .title-header{
     align-items: center;
 }
 
-.card-services{
-    background-color: rgb(255, 170, 177);
-    border: 0.02rem solid gray;
-    border-radius: 0.5rem;
-    padding: 0.6rem;
+.config-footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
 
+footer{
+    height: 10rem;
+    display: flex;
+    background-color: black;
+    margin-top: 2rem;
+}
+
+.card-footer{
+    height: 10rem;
+    border: 0.015rem solid white;
+    text-align: center;
+    display: flex;
+    color: white;
+}
+
+.header-footer{
+    font-size: 1.3rem;
 }

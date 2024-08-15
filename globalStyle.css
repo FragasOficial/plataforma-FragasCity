@@ -1,3 +1,73 @@
 
 @import url(reset.css);
 @import url(index.css);
+
+/* Media Queries para responsividade */
+@media only screen and (max-width: 768px) { /* Tablets */
+    .config-card, .config-footer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .render-button {
+        font-size: medium;
+        padding: 0.5rem;
+    }
+
+    #txtBusca {
+        width: 20rem;
+    }
+
+    #btnBusca {
+        top: 14rem;
+        right: 22rem;
+    }
+}
+
+@media only screen and (max-width: 480px) { /* Celulares */
+    .header-category {
+        font-size: 1rem;
+    }
+
+    .config-card, .config-footer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .title-header{
+        font-size: 1.3rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .card-services {
+        margin-bottom: 1rem;
+    }
+
+    .render-button {
+        font-size: medium;
+        padding: 0.5rem;
+        margin-left: auto;
+    }
+
+    #txtBusca {
+        width: 15rem;
+    }
+
+    #btnBusca {
+        top: 13rem;
+        right: 16rem;
+    }
+
+    .header-footer {
+        font-size: 1rem;
+    }
+
+    footer {
+        height: 8rem;
+    }
+
+    .card-footer {
+        height: 8rem;
+    }
+}
