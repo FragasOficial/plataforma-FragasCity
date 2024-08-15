@@ -105,7 +105,7 @@ ul{
 
 }
 
-#txtBusca{
+.txtBusca{
     margin-top: 2rem;
     margin-bottom: 2.5rem;
     text-align: left;
@@ -115,29 +115,21 @@ ul{
     height: 1.9rem;
 }
 
-/* #btnBusca{
-    position: fixed;
-    top: 14.8rem;
-    right: 26.6rem;
-    width: 2rem;
-    border-radius: 60rem;
-} */
-
 .surch{
     background-color: rgb(213, 24, 109);
     color: white;
     height: 2rem;
-    border: 0.02rem solid gray;
+    border: 0.02rem transparent gray;
     border-top-right-radius: 50rem;
     border-bottom-right-radius: 50rem;
     border-bottom-left-radius: none;
     border-top-left-radius: none;            
-    /* padding: 0.5rem; */
-    margin-left: -4rem;
+    margin-left: -5rem;
     cursor: pointer;
     font-weight: bold;
     width: 5rem;
     height: 2.2rem;
+
 }
 
 .title-header{

@@ -2,6 +2,7 @@
 @import url(reset.css);
 @import url(index.css);
 
+
 /* Media Queries para responsividade */
 @media only screen and (max-width: 768px) { /* Tablets */
     .config-card, .config-footer {
